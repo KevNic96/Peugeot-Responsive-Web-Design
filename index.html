@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/img/peugeot_logo.png" type="image/x-icon">
+    
+    <!-- REMIX ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Responsive Website</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="img/peugeot_logo.png" alt="peugeotlogo" class="nav_img">
+                PEUGEOT
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Información</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">E-store</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#footer" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- INICIO -->
+        <section class="home section" id="home">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">Empezá el 2023 eligiendo el mejor auto</h1>
+
+                    <h2 class="home__subtitle">Peugeot e-3008</h2>
+
+                    <h3 class="home__elec">
+                        <i class="ri-flashlight-fill"></i>100% eléctrico
+                    </h3>
+                </div>
+
+                <img src="img/home.png" alt="" class="home__img">
+
+                <div class="home__car">
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-temp-cold-line"></i>
+                        </div>
+                        <h2 class="home__car-number">24°</h2>
+                        <h3 class="home__car-name">TEMPERATURE</h3>
+                    </div>
+
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-dashboard-3-line"></i>
+                        </div>
+                        <h2 class="home__car-number">873</h2>
+                        <h3 class="home__car-name">MILEAGE</h3>
+                    </div>
+
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-flashlight-fill"></i>
+                        </div>
+                        <h2 class="home__car-number">94%</h2>
+                        <h3 class="home__car-name">BATTERY</h3>
+                    </div>
+                </div>
+
+                <a href="#about" class="home__button">START</a>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="home section" id="about">
+            <div class="about__container container grid">
+                <div class="about__group">
+                    <img src="img/about.png" alt="" class="about__img">
+
+                    <div class="about__card">
+                        <h3 class="about__card-title">Un diseño inspirador</h3>
+                        <p class="about__card-description">
+                            Dejá vía libre a tus sentidos gracias al al Nuevo I-Cockpit® Amplificado
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">TECNOLOGÍA HÍBRIDA</h2>
+
+                    <p class="about__description">Gracias a esta tecnología novedosa, emite cero emisiones contaminantes en modo 100% eléctrico y tiene un menor consumo de combustible en el ciclo combinado. </p>
+
+                    <a href="#" class="button">Conoce más</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- POPULAR -->
+        <section class="home section" id="popular">
+            <h2 class="section__title">
+                Elige tambien entre otros modelos de la linea Peugeot
+            </h2>
+            <div class="popular__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Peugeot 208</h1>
+                        <h3 class="popular__subtitle"></h3>
+
+                        <img src="img/popular1.png" alt="" class="popular__img">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 248 km/h
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-line"></i> Gasoil
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$6.675.732</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-cart-line"></i>
+                        </button>
+
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Peugeot 208 Roadtrip</h1>
+                        <h3 class="popular__subtitle"></h3>
+
+                        <img src="img/popular3.png" alt="" class="popular__img">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 248 km/h
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-line"></i> Gasoil
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$5.692.000</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-cart-line"></i>
+                        </button>
+
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Peugeot 2008</h1>
+                        <h3 class="popular__subtitle"></h3>
+
+                        <img src="img/popular2.png" alt="" class="popular__img">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 248 km/h
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-line"></i> Gasoil
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$4.500.000</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-cart-line"></i>
+                        </button>
+
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Peugeot 308 GTi</h1>
+                        <h3 class="popular__subtitle"></h3>
+
+                        <img src="img/popular4.png" alt="" class="popular__img">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 248 km/h
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-line"></i> Gasoil
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$3.189.900</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-cart-line"></i>
+                        </button>
+
+                    </article>
+
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">Peugeot 5008</h1>
+                        <h3 class="popular__subtitle"></h3>
+
+                        <img src="img/popular5.png" alt="" class="popular__img">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 Sec
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 248 km/h
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-line"></i> Gasoil
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$8.500.000</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-cart-line"></i>
+                        </button>
+
+                    </article>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- FEATURES -->
+        <section class="features section">
+            <h2 class="section__title">
+                Más características
+            </h2>
+
+            <div class="features__container container grid">
+                <div class="features__group">
+                    <img src="img/features.png" alt="" class="features__img">
+
+                    <div class="features__card features__card-1">
+                        <h3 class="features__card-title">Faros</h3>
+                        <p class="features__card-description">Full LED</p>
+                    </div>
+                    <div class="features__card features__card-2">
+                        <h3 class="features__card-title">190</h3>
+                        <p class="features__card-description">Máx. Vel. <br> Km/h </p>
+                    </div>
+                    <div class="features__card features__card-3">
+                        <h3 class="features__card-title">Garantía</h3>
+                        <p class="features__card-description">3 años <br> o 100.000km</p>
+                    </div>
+                </div>
+            </div>
+
+            <img src="img/map.svg" alt="" class="features__map">
+        </section>
+
+
+        <!-- OFFER -->
+        <section class="offer section">
+            <div class="offer__container container grid">
+                <img src="img/offer-bg.png" alt="" class="offer__bg">
+
+                <div class="offer__data">
+                    <h2 class="section__title offer__title">
+                        ¿Desea recibir <br> Ofertas Especiales?
+                    </h2>
+
+                    <p class="offer__description">
+                        Sea el/la primero/a en recibir toda la información sobre nuestros productos y nuevos autos por e-mail suscribiéndose a nuestra lista de correo.
+                    </p>
+
+                    <a href="https://peugeot.my-customerportal.com/peugeot/s/case-webform?language=es_AR#1" target="_blank" class="button">Suscríbase ahora</a>
+                </div>
+
+                <img src="img/offer.png" alt="" class="offer__img">
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer section" id="footer">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="" class="footer__logo">
+                        <img src="img/peugeot_logo.png" alt="peugeotlogo" class="nav_img">PEUGEOT
+                    </a>
+                    <p class="footer__description">
+                        Ofrecemos la mejor gama de automóviles del mundo.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Companía
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Sobre nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Gamas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Historia</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Tienda</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Information
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Solicitar presupuesto</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contactar a un vendedor</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contáctese con nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Servicios</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Follow PEUGEOT
+                    </h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/PeugeotArg" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/peugeotarg" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/peugeotarg/" target="_blank" class="footer__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+
+            <span class="footer__copy">
+                &#169; Peugeot.All rights reserved.
+            </span>
+        </footer>
+
+    </main>
+
+<!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+<!-- SCROLL REVEAL -->
+<script src="scrollreveal.min.js"></script>
+
+<!-- SWIPER JS -->
+<script src="swiper-bundle.min.js"></script>
+
+<!-- MAIN JS -->
+    <script src="script.js"></script>
+</body>
+</html>
